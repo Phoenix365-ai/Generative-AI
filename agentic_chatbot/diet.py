@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 import PyPDF2
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyDURkXaajOI0Wp_nnZ-eGq3yIsSxCX0kcY")  # Replace with your Gemini key
+genai.configure(api_key= Gemini API_KEY ")  # Replace with your Gemini key
 model = genai.GenerativeModel("gemini-1.5-pro")
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 
